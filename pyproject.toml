@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gigatoken"
+version = "0.1.0"
+description = ""
+authors = ["Grigoriy Mikheev <mikheevg@biocad.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.2"
+requests = "^2.31.0"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
